@@ -1,7 +1,7 @@
-import random as rd#correct
+import random as rd
 
 print(" \"Hi!, My self Dev and welcome to the number gussing game.\"\n","\"Rules are simple, you decide the range but we actually decide the number you have to guess(you have 5 chances.).\"\n","\"So,Let's begin it!!!\"")
-a=int(input(" Enter your lower bound:" ))#a and b will decide the range for gussing the no.
+a=int(input(" Enter your lower bound:" ))
 b=int(input(" Enter your upper bound:"))
 c=rd.randint(a,b)
 ch=5
